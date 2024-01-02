@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#errors {
+    color: coral;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 44px; 
+    height: 44px;
+    border: 1px solid lightgray;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 44px; 
+    height: 44px;
+    border: 1px solid lightgray;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+button {
+    width: 225px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 44px; 
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color: gray;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
+
+.test{
+    background-color: rgb(234, 0, 255) !important;
+}
+.rowred{
+    color: red !important;
+    /*background-color: red !important;*/
+}
+.coltest{
+    color: rgb(132, 233, 0) !important;
+}
